@@ -84,11 +84,11 @@ a {
   transition: var(--transition);
 }
 
-a:hover{
+a:hover {
   color: var(--color-white);
 }
 
-.btn{
+.btn {
   width: max-content;
   display: inline-block;
   color: var(--color-primary);
@@ -99,18 +99,18 @@ a:hover{
   transition: var(--transition);
 }
 
-.btn:hover{
+.btn:hover {
   background: var(--color-white);
   color: var(--color-bg);
   border-color: transparent;
 }
 
-.btn-primary{
+.btn-primary {
   background-color: var(--color-primary);
   color: var(--color-bg);
 }
 
-img{
+img {
   display: block;
   width: 1000%;
   object-fit: cover;
