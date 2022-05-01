@@ -5,7 +5,7 @@ const ExperienceDetail = (props) => {
   return (
     <div>
       <article className='experience__details'>
-        <BsPatchCheckFill />
+        <BsPatchCheckFill className='experience__details-icon' />
         <div>
           <h4>{props.title}</h4>
           <small className='text-light'>Experienced</small>
