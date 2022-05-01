@@ -5,6 +5,8 @@ import { FaAward } from 'react-icons/fa';
 import { FiUsers } from 'react-icons/fi';
 import { VscFolderLibrary } from 'react-icons/vsc';
 
+import AboutCard from './AboutCard';
+
 const About = () => {
   return (
     <section id='about'>
@@ -20,23 +22,23 @@ const About = () => {
 
         <div className='about__content'>
           <div className='about__cards'>
-            <article className='about__card'>
-              <FaAward className='about__icon' />
-              <h5>Experience</h5>
-              <small>3+ Years Work</small>
-            </article>
+            <AboutCard
+              icon={FaAward}
+              h5Text={'Experience'}
+              smallText={'3+ Years Work'}
+            ></AboutCard>
 
-            <article className='about__card'>
-              <FiUsers className='about__icon' />
-              <h5>Clients</h5>
-              <small>200+ Worldwide</small>
-            </article>
+            <AboutCard
+              icon={FiUsers}
+              h5Text={'Clients'}
+              smallText={'200+ Worldwide'}
+            ></AboutCard>
 
-            <article className='about__card'>
-              <VscFolderLibrary className='about__icon' />
-              <h5>Projects</h5>
-              <small>80+ Completed</small>
-            </article>
+            <AboutCard
+              icon={VscFolderLibrary}
+              h5Text={'Projects'}
+              smallText={'80+ Completed'}
+            ></AboutCard>
           </div>
 
           <p>
