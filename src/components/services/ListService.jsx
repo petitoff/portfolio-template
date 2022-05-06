@@ -3,12 +3,10 @@ import { BiCheck } from 'react-icons/bi';
 
 const ListService = (props) => {
   return (
-    <div>
-      <li>
-        <BiCheck className='service__list-icon' />
-        <p>{props.text}</p>
-      </li>
-    </div>
+    <li>
+      <BiCheck className='service__list-icon' />
+      <p>{props.text}</p>
+    </li>
   );
 };
 
