@@ -1,5 +1,4 @@
 import React from 'react';
-import { BsPatchCheckFill } from 'react-icons/bs';
 import ExperienceDetail from './ExperienceDetail';
 
 function Tile(props) {

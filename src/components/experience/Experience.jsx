@@ -1,6 +1,5 @@
 import React from 'react';
 import './experience.css';
-import ExperienceDetail from './ExperienceDetail';
 import Tile from './Tile';
 
 const Experience = () => {
