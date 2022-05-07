@@ -25,9 +25,8 @@ const Experience = () => {
           <h3>Backend Development</h3>
           <div className='experience__content'>
             <ExperienceDetail title={'Node.js'}></ExperienceDetail>
-            <ExperienceDetail title={'MongoDB'}></ExperienceDetail>
             <ExperienceDetail title={'Python'}></ExperienceDetail>
-            <ExperienceDetail title={'MySQL'}></ExperienceDetail>
+            <ExperienceDetail title={'C#'}></ExperienceDetail>
           </div>
         </div>
       </div>
