@@ -1,7 +1,7 @@
 import React from 'react';
 import './experience.css';
-import { BsPatchCheckFill } from 'react-icons/bs';
 import ExperienceDetail from './ExperienceDetail';
+import Tile from './Tile';
 
 const Experience = () => {
   return (
@@ -10,25 +10,33 @@ const Experience = () => {
       <h2>My Experience</h2>
 
       <div className='container experience__container'>
-        <div className='experience__frontend'>
-          <h3>Frontend Development</h3>
-          <div className='experience__content'>
-            <ExperienceDetail title={'HTML'}></ExperienceDetail>
-            <ExperienceDetail title={'CSS'}></ExperienceDetail>
-            <ExperienceDetail title={'JavaScript'}></ExperienceDetail>
-            <ExperienceDetail title={'React.js'}></ExperienceDetail>
-          </div>
-        </div>
+        <Tile
+          title={'Frontend Development'}
+          nameTool={['HTML', 'CSS', 'JavaScript', 'React.js']}
+        />
 
-        {/* Backend section */}
-        <div className='experience__backend'>
-          <h3>Backend Development</h3>
-          <div className='experience__content'>
-            <ExperienceDetail title={'Node.js'}></ExperienceDetail>
-            <ExperienceDetail title={'Python'}></ExperienceDetail>
-            <ExperienceDetail title={'C#'}></ExperienceDetail>
+        <Tile
+          title={'Backend Development'}
+          nameTool={['Node.js', 'Python', 'C#']}
+        />
+        {/* <div>
+            <h3>Frontend Development</h3>
+            <div className='experience__content'>
+              <ExperienceDetail title={'HTML'}></ExperienceDetail>
+              <ExperienceDetail title={'CSS'}></ExperienceDetail>
+              <ExperienceDetail title={'JavaScript'}></ExperienceDetail>
+              <ExperienceDetail title={'React.js'}></ExperienceDetail>
+            </div>
           </div>
-        </div>
+
+          <div>
+            <h3>Backend Development</h3>
+            <div className='experience__content'>
+              <ExperienceDetail title={'Node.js'}></ExperienceDetail>
+              <ExperienceDetail title={'Python'}></ExperienceDetail>
+              <ExperienceDetail title={'C#'}></ExperienceDetail>
+            </div>
+          </div> */}
       </div>
     </section>
   );
