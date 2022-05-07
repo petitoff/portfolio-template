@@ -18,6 +18,11 @@ const Experience = () => {
           title={'Backend Development'}
           nameTool={['Node.js', 'Python', 'C#']}
         />
+
+        <Tile
+          title={'Algorithmic'}
+          nameTool={['Dynamic Programming', 'Graph', 'Mathematics']}
+        />
         {/* <div>
             <h3>Frontend Development</h3>
             <div className='experience__content'>
