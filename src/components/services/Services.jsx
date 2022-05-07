@@ -10,7 +10,7 @@ const Services = () => {
 
       <div className='container services__container'>
         <Card
-          title={'UI/UX'}
+          title={'Graphic Design'}
           texts={[
             'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
             'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
@@ -33,7 +33,7 @@ const Services = () => {
         />
 
         <Card
-          title={'Content Creation'}
+          title={'Software development'}
           texts={[
             'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
             'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
