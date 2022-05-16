@@ -23,24 +23,6 @@ const Experience = () => {
           title={'Algorithmic'}
           nameTool={['Dynamic Programming', 'Graph', 'Mathematics']}
         />
-        {/* <div>
-            <h3>Frontend Development</h3>
-            <div className='experience__content'>
-              <ExperienceDetail title={'HTML'}></ExperienceDetail>
-              <ExperienceDetail title={'CSS'}></ExperienceDetail>
-              <ExperienceDetail title={'JavaScript'}></ExperienceDetail>
-              <ExperienceDetail title={'React.js'}></ExperienceDetail>
-            </div>
-          </div>
-
-          <div>
-            <h3>Backend Development</h3>
-            <div className='experience__content'>
-              <ExperienceDetail title={'Node.js'}></ExperienceDetail>
-              <ExperienceDetail title={'Python'}></ExperienceDetail>
-              <ExperienceDetail title={'C#'}></ExperienceDetail>
-            </div>
-          </div> */}
       </div>
     </section>
   );
