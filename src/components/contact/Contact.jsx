@@ -7,6 +7,21 @@ import emailjs from 'emailjs-com';
 
 const data = [
   {
+    icon: <MdOutlineMail />,
+    title: 'Email',
+    name: 'petitoff@outlook.com',
+    link: 'mailto:petitoff@outlook.com',
+    linkText: 'Send a mail',
+  },
+  {
+    icon: <MdOutlineMail />,
+    title: 'Email',
+    name: 'petitoff@outlook.com',
+    link: 'mailto:petitoff@outlook.com',
+    linkText: 'Send a mail',
+  },
+  {
+    icon: <MdOutlineMail />,
     title: 'Email',
     name: 'petitoff@outlook.com',
     link: 'mailto:petitoff@outlook.com',
