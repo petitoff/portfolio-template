@@ -2,6 +2,8 @@ import React from 'react';
 import './Contact.css';
 import { MdOutlineMail } from 'react-icons/md';
 import Tile from './Tile';
+import { useRef } from 'react';
+import emailjs from 'emailjs-com';
 
 const data = [
   {
