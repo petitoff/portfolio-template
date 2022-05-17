@@ -30,6 +30,21 @@ const data = [
 ];
 
 const Contact = () => {
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm(
+      'service_wt8n81p',
+      'template_dm8ux88',
+      form.current,
+      '5bEM8t9g5W4i2nAl-'
+    );
+
+    e.target.reset();
+  };
+
   return (
     <section id='contact'>
       <h5>Get In Touch</h5>
@@ -47,6 +62,20 @@ const Contact = () => {
             />
           ))}
         </div>
+
+        <form ref={form} onSubmit={sendEmail}>
+          <input type='text' name='name' placeholder='Your name' required />
+          <input type='email' name='email' placeholder='Your email' required />
+          <textarea
+            name='message'
+            rows='7'
+            placeholder='Your message'
+            required
+          ></textarea>
+          <button type='submit' className='btn btn-primary'>
+            Send Message
+          </button>
+        </form>
       </div>
     </section>
   );
